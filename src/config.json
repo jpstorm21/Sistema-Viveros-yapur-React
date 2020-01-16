@@ -1,0 +1,11 @@
+{
+  "dbUri": "postgres://postgres:postgres@localhost:5432/viveros_yapur",
+  "secret": "y`Sz+Rv&`^|HGOK]33N7?iXaHXYUa#>KLB.,6QA9Tr132=[]g>ikT^h>Uf5X#Ch",
+  "oAuth2": {
+    "type": "OAuth2",
+    "user": "jmr032@alumnos.ucn.cl",
+    "clientId": "459620240333-dr0a3kafcd11cmsvmlb3cnelosv7e6nq.apps.googleusercontent.com",
+    "clientSecret": "VWt6MfDosLaZTYl_ngSOuVIn",
+    "refreshToken": "1/owRTo-p21SP9A-yQqwuZiLUVVwIMbyZ5HT9ZI6paqTs"
+  }
+}

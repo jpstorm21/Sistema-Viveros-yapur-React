@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'Source Sans Pro Bold';
+  src: url('../fonts/SourceSansPro-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Regular';
+  src: url('../fonts/SourceSansPro-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Light';
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+
+html, body {
+  height: 100vh;
+  min-height: 100%;
+  min-width: 300px;
+  /*overflow-x: auto;
+  overflow-y: auto;*/
+  margin: 0;
+  font-size: 16px;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: static;
+  overflow: hidden;
+}
+
+.open-menu {
+  margin-left: 250px;
+}
+
+.close-menu {
+  margin-left: 0px;
+}
+
+.field-line, .button-line {
+  padding: 16px;
+}
+
+td, td * {
+  word-wrap: break-word;
+}
+
+th {
+  text-align: center;
+}
+
+.dropZone {
+  animation: example 5s linear 2s infinite alternate
+}
+
+.table {
+  font-family: 'Source Sans Pro Light';
+  font-size: 0.9em;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.table thead {
+  color: #263238;
+  background-color: rgb(0, 92, 187);
+  color: #fff;
+  text-rendering: optimizeLegibility;
+}
+
+.table th, td {
+  text-align: center;
+  border-bottom: 0 !important;
+  vertical-align: middle !important;
+}
+
+.table td, tr {
+  padding: 2px !important;
+}
+
+.table tr {
+  border-top: 1px solid #C1C3D1 !important;
+  border-bottom: 1px solid #C1C3D1 !important;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+.table td {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.table tr:hover td{
+  background-color: #FAFAFA;
+}
+
+input:disabled, textarea:disabled {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.dc-chart g.row text, .dc-chart .pie-slice {
+  fill: #000;
+}
+
+.pagination li a {
+  color: #005CBB;
+}
+
+.active a {
+  background-color: #005CBB !important;
+  border-color: #005CBB !important;
+}
+
+td, td * {
+  word-wrap: break-word;
+  white-space: pre-wrap !important;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.overflow-y-unset {
+  overflow-y: unset !important;
+}
+
+.page-item.active .page-link {
+  z-index: 0;
+}

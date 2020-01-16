@@ -1,0 +1,17 @@
+{
+  "hostname": "http://localhost:9006",
+  "basename": "",
+  "staticPath": "",
+  "uploadPath": "upload",
+  "staticFolderPath": "src/static",
+  "client": {
+    "home": "/",
+    "login": "/login",
+    "user": "/user",
+    "userList": "/userList",
+    "checks":"/checks",
+    "checkList":"/checkList",
+    "provider":"/provider",
+    "providerList":"/providerList"
+  }
+}

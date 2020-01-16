@@ -1,0 +1,113 @@
+.ochart-container {
+  width: 100%;
+}
+.ochart-container .ochart-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  border: 2px dashed #aaa;
+  padding: 10px;
+}
+
+
+.ochart-board-container ul,
+.ochart-board-container li {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  list-style: none;
+}
+
+.ochart-board-container {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ochart-board-container .board-list {
+  float: left;
+  position: relative;
+}
+.ochart-board-container .board-list > :first-of-type {
+  margin: 0 auto;
+}
+.ochart-board-container .board-list .has-children {
+  margin: 0 auto;
+  justify-items: center;
+  align-items: center;
+}
+.ochart-board-container .board-list > .board-list {
+  margin: 4px;
+}
+.ochart-board-container .board-list .board-list-item {
+  position: relative;
+  width: 136px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: 1px solid orange;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  box-shadow: 4px 4px 9px -4px rgba(0, 0, 0, 0.4);
+  transition: all linear 0.1s;
+}
+.board-list-item::before,
+.board-list::before,
+.board-list-item::after,
+.board-list::after {
+  content: "";
+  position: absolute;
+}
+.board-list.has-children > .board-list-item::after {
+  height: 16px;
+  width: 2px;
+  left: 50%;
+  bottom: -16px;
+  background-color: orange;
+}
+.board-list.has-children > .board-list:last-of-type::after {
+  height: 2px;
+  width: calc(58%);
+  left: -8px;
+  top: -3px;
+  background-color: orange;
+}
+.board-list.has-children > .board-list:first-of-type::after {
+  height: 2px;
+  width: calc(58%);
+  left: 50%;
+  top: -3px;
+  background-color: orange;
+}
+.board-list.has-children > .board-list::after {
+  height: 2px;
+  width: calc(108%);
+  left: 0;
+  top: -3px;
+  background-color: orange;
+}
+.board-list.has-children > .board-list::before {
+  height: 16px;
+  width: 2px;
+  left: 50%;
+  top: -3px;
+  background-color: orange;
+}
+.has-a-child > ul::after {
+  display: none;
+}
+.board-list-item > span {
+  display: inline-block;
+  width: 100%;
+  line-height: 2;
+}
+
+.board-name-title {
+  background:#ACE666;
+  font-weight: bold;
+}
+.board-name {
+  background: #AFB4AA;
+  font-weight: bold;
+}
