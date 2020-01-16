@@ -41,7 +41,7 @@
     "body-parser": "^1.18.3",
     "browser-image-size": "^1.1.0",
     "classnames": "^2.2.6",
-    "connect-pg-simple": "^5.0.0",
+    "connect-pg-simple": "^6.0.1",
     "cookie-parser": "^1.4.3",
     "downloadjs": "^1.4.7",
     "ejs": "^2.6.1",
